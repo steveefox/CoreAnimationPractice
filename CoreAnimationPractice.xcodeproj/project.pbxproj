@@ -19,6 +19,7 @@
 		8433CE2C29851A350077B166 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433CE2B29851A350077B166 /* LoadingViewController.swift */; };
 		8433CE2E29851A4C0077B166 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433CE2D29851A4C0077B166 /* DashboardViewController.swift */; };
 		8433CE3029851A5B0077B166 /* PartyTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433CE2F29851A5B0077B166 /* PartyTimeViewController.swift */; };
+		8433CE3229851D800077B166 /* GradientActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433CE3129851D800077B166 /* GradientActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8433CE2B29851A350077B166 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		8433CE2D29851A4C0077B166 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		8433CE2F29851A5B0077B166 /* PartyTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTimeViewController.swift; sourceTree = "<group>"; };
+		8433CE3129851D800077B166 /* GradientActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientActions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				8433CE2829851A0B0077B166 /* Storyboards */,
 				8433CE2729851A060077B166 /* ViewControllers */,
 				8433CE23298519BB0077B166 /* AnimationHelper.swift */,
+				8433CE3129851D800077B166 /* GradientActions.swift */,
 				8433CE212985199B0077B166 /* Extensions.swift */,
 				8433CE1F2985197E0077B166 /* Constants.swift */,
 				8433CE08298518C00077B166 /* AppDelegate.swift */,
@@ -177,6 +180,7 @@
 				8433CE2E29851A4C0077B166 /* DashboardViewController.swift in Sources */,
 				8433CE24298519BB0077B166 /* AnimationHelper.swift in Sources */,
 				8433CE202985197E0077B166 /* Constants.swift in Sources */,
+				8433CE3229851D800077B166 /* GradientActions.swift in Sources */,
 				8433CE2A29851A280077B166 /* SignInViewController.swift in Sources */,
 				8433CE222985199B0077B166 /* Extensions.swift in Sources */,
 				8433CE3029851A5B0077B166 /* PartyTimeViewController.swift in Sources */,

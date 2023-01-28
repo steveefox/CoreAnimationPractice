@@ -32,3 +32,18 @@ extension UIViewController {
         }
     }
 }
+
+extension UIApplication {
+    static var keyWindow: UIWindow? {
+        return UIApplication.shared.connectedScenes
+            .filter { $0.activationState == .foregroundActive }
+            .first(where: { $0 is UIWindowScene })
+            .flatMap({ $0 as? UIWindowScene })?.windows
+            .first(where: \.isKeyWindow)
+    }
+    
+    static var safeAreaInsets: UIEdgeInsets {
+        let defaultInsets = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
+        return keyWindow?.safeAreaInsets ?? defaultInsets
+    }
+}
